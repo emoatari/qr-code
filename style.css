@@ -9,14 +9,13 @@
     color: #1f3251;
 }
 body {
-    display: flex;
     background: #d6e2f0;
     align-items: center;
     min-height: 100vh;
-    display: grid;
+    display: flex;
 }
 .container {
-    width: 270px;
+    max-width: 20rem;
     height: max-content;
     background-color: white;
     border-radius: 20px;
@@ -27,6 +26,8 @@ body {
 }
 .img-box {
     padding: 10px;
+    width: 100%;
+    height: auto;
 }
 .img {
     width: 250px;
@@ -37,7 +38,7 @@ body {
     font-family: "outfit";
     font-weight: 700;
     color: #1f3251;
-    padding: 0.4rem;
+    padding: 0.3rem;
     text-align: center;
     margin: 0 15px;
 }
