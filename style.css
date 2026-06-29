@@ -15,7 +15,7 @@ body {
     display: flex;
 }
 .container {
-    max-width: 20rem;
+    max-width: 300px;
     height: max-content;
     background-color: white;
     border-radius: 20px;
